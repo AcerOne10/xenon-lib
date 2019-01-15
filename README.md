@@ -6,5 +6,6 @@ To use these libraries import xenon-lib.jar from jar/ as external library to you
     <div><p> <h4>
         This class provides functionality to use the BufferedReader Class from java.io.BufferedReader without the 'skip' problem persisting in the BuffererReader Class. <br>
         Note: All of the methods in this class are not static and all of them throw java.lang.IOException <br>
+        <b> Package Description: </b> Can be imported using "import com.xenon.lib.PerfectReader" <br>
         <b> Object Construction: </b> PerfectReader reader = new PerfectReader(new BufferedReader(new InputStreamReader(System.in)));
     </h4></p></div>
